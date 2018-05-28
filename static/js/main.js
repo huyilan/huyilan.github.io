@@ -16,7 +16,7 @@ var nebPay = new NebPay();
 
 // ****Maintnet****9c68c2662f6895622e93aa2112cf2b0d0994ee57d232ffe9d89120578d046458//
 myneb.setRequest(new HttpRequest("https://mainnet.nebulas.io"));
-var dapp_address = "n1je8Yt8HEes38oQzBHgFnJTPoNuQczLRsR";
+var dapp_address = "n1nfxCCWFJ5fz54LvwLsVkA32XTWTgsvgZB";
 
 
 // if(typeof(webExtensionWallet) === "undefined") {
