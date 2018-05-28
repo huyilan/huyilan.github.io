@@ -56,6 +56,6 @@ font{
     position: relative;
     padding: 60px 0 60px 0;
     min-height: 900px;
-    background: rgb(40, 70, 102) url(../img/background.jpg) no-repeat center center;
+    background: rgb(255, 255, 255) url(../img/background.jpg) no-repeat center center;
     background-size: cover;
 }
