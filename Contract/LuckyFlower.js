@@ -54,7 +54,8 @@ LuckyFlower.prototype = {
     getLuckyFlower: function () {
         var yourLuckyFlower = this.Today.get(Blockchain.transaction.from)
         if (yourLuckyFlower) {
-            if (new BigNumber(yourLuckyFlower.date).plus(1000 * 60 * 60 * 24).lte(new BigNumber(Date.now()))) {
+            // if (new BigNumber(yourLuckyFlower.date).plus(1000 * 60 * 60 * 24).lte(new BigNumber(Date.now()))) {
+            if(new BigNumber(yourLuckyFlower.date).plus(1000).lte(new BigNumber(Date.now()))) {
                 return this._write()
             } else {
                 return {
