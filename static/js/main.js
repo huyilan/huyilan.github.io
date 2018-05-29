@@ -16,7 +16,8 @@ var nebPay = new NebPay();
 
 // ****Maintnet****9c68c2662f6895622e93aa2112cf2b0d0994ee57d232ffe9d89120578d046458//
 myneb.setRequest(new HttpRequest("https://mainnet.nebulas.io"));
-var dapp_address = "n1nfxCCWFJ5fz54LvwLsVkA32XTWTgsvgZB";
+// var dapp_address = "n1nfxCCWFJ5fz54LvwLsVkA32XTWTgsvgZB";
+var dapp_address = "n1kTqQb6Esg9N2HVCckyYyi7f25Cf2VzkkX";   //test short time contract
 
 
 // if(typeof(webExtensionWallet) === "undefined") {
